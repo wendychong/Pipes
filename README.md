@@ -1,6 +1,4 @@
-EE 468
 Project 1
-Total Points = 5.
 
 Included in this directory is a very simple shell program
 for Linux named 'sshell.c'.  It currently cannot do
@@ -17,16 +15,10 @@ using dup2.  (Recall that this example came frm EE 367L.)
 You may assume that the maximum number of pipe symbols ('|')
 in a command line is 9.
 
-For partial credit (4 points), have the shell be able to 
-do one pipe.
-
-For full credit (5 pts), have the shell be able to do up 
-to 9 pipes.  Note that the in[] and out[] arrays may have 
+ Note that the in[] and out[] arrays may have 
 to organized into structs since you may need 9 of them.
 Your shell should not create zombie processes if it properly
 exits.
-
-For some effort, you get 3 pts;  otherwise, you get 0pts.
 
 Hint:  To test your shell, you can use the 'more' command
 which will output a file to stdout.  So in a command line
