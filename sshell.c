@@ -3,7 +3,9 @@
  *  rik0.altervista.org/snippetss/csimpleshell.html
  *  It's been modified a bit and comments were added.
  *
- *  It doesn't allow misdirection, e.g., <, >, >>, or |
+ *  Alternations were made by: Wendy Chong
+ *  EE 468
+ *  Due: September 11, 2017
  */
 
 #include <stdio.h>
